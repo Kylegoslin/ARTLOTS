@@ -39,6 +39,7 @@ The core standard can be broken into three components:
 The JSON files outlined in this standard include:
 
 **learner_profile.json** - Learner specific profile data outlining their personal attributes and current abilities.
+
 **scene.json** - A structure for learning resources.
 
 
