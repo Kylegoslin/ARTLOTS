@@ -43,16 +43,16 @@ The core standard can be broken into three components:
 
 The core of the ARTLOTS standard is the learner profile. This profile is designed to capture information about the learner. Three core sections can be seen in this. The first is profile_static_attributes that covers the core attributes of the learner that are typically not likely to change. Basic profile data is stored here.
 
-**first_name** - Learners first name. This attribute is commonly used in learning resources to provide direct references to the learner during dialogue.
+- **first_name** - Learners first name. This attribute is commonly used in learning resources to provide direct references to the learner during dialogue.
 
-**last_name** - Learners last name. Used when direct dialogue to formally address the learner.
+- **last_name** - Learners last name. Used when direct dialogue to formally address the learner.
 
-**gender** - Learners gender preference.
+- **gender** - Learners gender preference.
 
-**dexterity** - The dexterity attribute is designed to capture the ability of the learner when input is required into the system. Low levels of dexterity will result 
+- **dexterity** - The dexterity attribute is designed to capture the ability of the learner when input is required into the system. Low levels of dexterity will result 
 in less combination choices and less required advanced movement such as moving a mouse or object on a screen by the learner.
 
-**age** - The age attribute is used as a refernece point for the learner during dialogue. The age is not used as a deciding factor for levels of detail or complexity.
+- **age** - The age attribute is used as a refernece point for the learner during dialogue. The age is not used as a deciding factor for levels of detail or complexity.
 
 ```
 
