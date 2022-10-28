@@ -45,7 +45,7 @@ The core of the ARTLOTS standard is the learner profile. This profile is designe
 
 **first_name** - Learners first name. This attribute is commonly used in learning resources to provide direct references to the learner during dialogue.
 
-**last_name** - Learners last name.
+**last_name** - Learners last name. Used when direct dialogue to formally address the learner.
 
 **gender** - Learners gender preference.
 
