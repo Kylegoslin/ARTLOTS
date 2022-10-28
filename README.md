@@ -127,13 +127,35 @@ The **profile_complexity_attributes** are designed as a reference point for the 
 
 
 ## 3. Learning Resource Tagging Metadata
+Each learning resource is a compilation of individual scenes. The JSON below represents one individual scene from a learning resource.
+
+-** activity_name** - A basic title for the resource. This is often used as the name when individual scenes are rendered or when listed as part of a learning resource.
+
+-**creation_date** - The date when the resource was last modified. Structured as DD-MM-YYYY.
+
+The core of the scene is the **metadata** tag. This contains a **description** attribute that describes the scene in detail. The **classifications** outlines for each of the core ability levels in each area that the resource is designed for. 
+
+
+- **language_class** - 
+- **adaptability_class** - This referneces the overall adaptability of the learner. Where low, the topics and actors relevant to the learner will become more frequently mentioned.
+- **socialskills_class** - This references the overall amount of social skills required for the scene. If high, the learner is expected to have good understanding of social dialogue. If low, very little social dialogue is included.
+- **listening_class** - For learners with good listening skills, if this attribute is set to high, an emphasis is placed on the vocalisation of dialogue and prompts to the learner.
+- **prompt_repetition** - This attribute outlines how often prompts in the scene are repeated. Often specific learners benefit from repeating a question or prompt.
+- **task_complexity_class** - This attribute defines the overall task complexity with reference to how much thought and effort is required from the learner to complete for a successful answer.
+- **prompt_complexity_class** - This attribute references the overall complexity of the prompt with respect to the number of options and detail added to the prompt. Low complexity would be image based with no text. 
+- **visual_complexity_class** - As some learners require minimal distraction, the visual complexity references the number of background activities that are being performed in the scene. If low, no additional actors or background images are added as they may cause additional distraction.
+
+
+
+
 
 
 **Filename:** scene.json (top)
 
 ```
 {
-	"activityName": "Getting ready for school",
+	"creation_date": "28-10-2022"
+	"activity_name": "Getting ready for school",
 	"metadata": {
 		"description": "This is a collection of tasks outlining getting ready for school.",
 		"classifications": {
