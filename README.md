@@ -129,7 +129,7 @@ The **profile_complexity_attributes** are designed as a reference point for the 
 ## 3. Learning Resource Tagging Metadata
 Each learning resource is a compilation of individual scenes. The JSON below represents one individual scene from a learning resource.
 
--** activity_name** - A basic title for the resource. This is often used as the name when individual scenes are rendered or when listed as part of a learning resource.
+-**activity_name** - A basic title for the resource. This is often used as the name when individual scenes are rendered or when listed as part of a learning resource.
 
 -**creation_date** - The date when the resource was last modified. Structured as DD-MM-YYYY.
 
