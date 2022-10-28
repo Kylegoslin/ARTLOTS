@@ -32,13 +32,64 @@ are often overlooked by other resource tagging approaches.
 
 The core standard can be broken into three components:
 
-1. Learner Profile Metadata (Section 2).
-3. Learning Resource Tagging Metadata (Section 3).
-3. Learning Resource Scene Structures (Section 4).
+1. Learner Profile Metadata (Section 2)
+3. Learning Resource Tagging Metadata (Section 3)
+3. Learning Resource Scene Structures (Section 4)
 
 
 
 ## 2. Learner Profile Metadata
+
+
+```
+
+{
+    "profile_static_attributes": [
+        {
+            "learnername": "John Smith"
+        },
+        {
+            "gender": "male"
+        },
+        {
+            "dexterity": "high"
+        },
+        {
+            "age": "4"
+        }
+    ],
+    "profile_skill_attributes": [
+        {
+            "visual_tolerance": "low"
+        },
+        {
+            "reading_ability": "low"
+        },
+        {
+            "listening_ability": "medium"
+        },
+        {
+            "adaptability": "high"
+        },
+        {
+            "socialskills": "low"
+        }
+
+    ],
+    "profile_complexity_attributes": {
+        "task_complexity": "med",
+        "prompt_complexity": "low",
+        "visual_complexity": "low"
+    }
+
+
+
+}
+
+```
+
+
+
 ## 3. Learning Resource Tagging Metadata
 ## 4. Learning Resource Scene Structures
 
