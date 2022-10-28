@@ -46,7 +46,10 @@ The core standard can be broken into three components:
 {
     "profile_static_attributes": [
         {
-            "learnername": "John Smith"
+            "first_name": "John"
+        },
+        {
+            "last_name": "Smith"
         },
         {
             "gender": "male"
