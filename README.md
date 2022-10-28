@@ -136,7 +136,7 @@ Each learning resource is a compilation of individual scenes. The JSON below rep
 The core of the scene is the **metadata** tag. This contains a **description** attribute that describes the scene in detail. The **classifications** outlines for each of the core ability levels in each area that the resource is designed for. 
 
 
-- **language_class** - 
+- **language_class** - This attribute describes the overall complexity of the language used in the scene. High indicating detailed language.
 - **adaptability_class** - This referneces the overall adaptability of the learner. Where low, the topics and actors relevant to the learner will become more frequently mentioned.
 - **socialskills_class** - This references the overall amount of social skills required for the scene. If high, the learner is expected to have good understanding of social dialogue. If low, very little social dialogue is included.
 - **listening_class** - For learners with good listening skills, if this attribute is set to high, an emphasis is placed on the vocalisation of dialogue and prompts to the learner.
