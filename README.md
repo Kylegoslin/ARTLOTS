@@ -1,7 +1,7 @@
 # ARTLOTS Standard - Version 1.0
 ARTLOTS - Advanced Resource Tagging for Learners On The Spectrum
 
-
+**Status:** Live Beta
 ## Abstract
 ARTLOTS is a JSON based file structure for tagging learning resources with additional metadata
 to classify software-based learning resource content and provide a common structure to resources for learners on the autism spectrum.
