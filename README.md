@@ -66,6 +66,13 @@ The **profile_skill_attributes** are designed to reflect the current abilities o
 - **adaptability** - A learner's adaptability is a reference to how comfortable they are with new actors and content being displayed. A learner with a low adaptability will  be provided with reoccurring themes of interest during all scenes to encourage familiarity.
 - **socialskills** - A learner's social skills is a reference to their over all ability to interact and respond to social based dialogue. Learners with a low social skills will be encouraged to focus on the area in small increments and not overwhelmed with social dialogue.
 
+The **profile_complexity_attributes** are designed as a reference point for the level of overall complexity that should be provided for a learner.
+
+- **task_complexity** - The task complexity is designed to outline the overal general complexity of a task in a given scene. This is directly linked to the amount of thought and effort that is needed for a correct answer.
+- **prompt_complexity** - This attribute is used for deciding on the number of options that are available for the learner to choose from. Low complexity allows one of two possible choices.
+- **visual_complexity** - This attribute is designed to outline how complex an individual scene should be for the learner. Low complexity outlines that few scene actors and background components should be added to a scene. 
+
+
 ```
 
 {
