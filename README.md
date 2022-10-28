@@ -123,7 +123,7 @@ The **profile_skill_attributes** are designed to reflect the current abilities o
 {
 	"activityName": "Getting ready for school",
 	"metadata": {
-		"description": "This is a collection of tasks outlining getting ready for school. Aimed at a medium level of complexity. To work on listening and criticl thinking",
+		"description": "This is a collection of tasks outlining getting ready for school.",
 		"classifications": {
 			"language_class": "med",
 			"adaptability_class": "high",
