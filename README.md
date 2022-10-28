@@ -54,6 +54,14 @@ in less combination choices and less required advanced movement such as moving a
 
 - **age** - The age attribute is used as a refernece point for the learner during dialogue. The age is not used as a deciding factor for levels of detail or complexity.
 
+The **profile_skill_attributes** are designed to reflect the current abilities of the learner in a range of different categories. Depending on the values, a variety of changes can be made to the quantity of visual, auditory stimulus, and complexity in any given scene. 
+
+- **visual_tolerance** - This attribute is designed to reflect the overall level of visual stimulus a learner is able for. Low visual tolerance will result in lighter colours, less complex scenes or less actors involved in any given scene.
+- **reading_ability** - The reading ability of a learner directly impacts how scenes can be rendered. Learners with low reading ability will not be required to read content or dialogue. Learners with a high ability will be encouraged to read scene dialogue and text placed on interactive buttons.
+- **listening_ability** - As some learners enjoy listening to dialogue, if the listening ability is set to high, more dialogue will be spoken. If the ability is low, background music and additional sound effects will be removed from a scene.
+- **adaptability** - A learner's adaptability is a reference to how comfortable they are with new actors and content being displayed. A learner with a low adaptability will  be provided with reoccurring themes of interest during all scenes to encourage familiarity.
+- **socialskills** - A learner's social skills is a reference to their over all ability to interact and respond to social based dialogue. Learners with a low social skills will be encouraged to focus on the area in small increments and not overwhelmed with social dialogue.
+
 ```
 
 {
