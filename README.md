@@ -7,9 +7,10 @@ ARTLOTS is a JSON based file structure for tagging learning resources with addit
 to classify learning resources for learners on the autism spectrum.
 
 Unlike traditional learning resource tagging approaches, a focus is placed on the attributes of a learner on the autism spectrum.
-This standard is designed to outine the required JSON attributes for tagging a learning resource for sharing over the Internet.
+This standard is designed to outine the required JSON attributes for tagging a learning resource for sharing over the Internet to provide
+a baseline for quality resource selection applicable to a learner's needs.
 
-
+This standard is a component of the OpenEARL.org project.
 
 ## Developed by
 
