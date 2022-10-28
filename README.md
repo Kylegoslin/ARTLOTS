@@ -107,6 +107,72 @@ in less combination choices and less required advanced movement such as moving a
 
 
 ## 3. Learning Resource Tagging Metadata
-## 4. Learning Resource Scene Structures
+
+
+**Filename:** scene.json (top)
+
+```
+{
+	"activityName": "Getting ready for school",
+	"metadata": {
+		"description": "This is a collection of tasks outlining getting ready for school. Aimed at a medium level of complexity. To work on listening and criticl thinking",
+		"classifications": {
+			"language_class": "med",
+			"adaptability_class": "high",
+			"socialskills_class": "med",
+			"listening_class": "high",
+			"prompt_repetition": "med",
+			"task_complexity_class": "med",
+			"prompt_complexity_class": "low",
+			"visual_complexity_class": "low"
+		},
+		"task_types": [
+			"listening skill",
+			"critical thinking"
+		]
+
+	}
+}
+```
+
+
+
+
+
+
+
+
+## 4. Learning Resource Scene Structure
+
+
+
+```
+{
+	"actions": [{
+		"orderId": "1",
+		"tag": "getting out the bed",
+		"alternativeAction": "",
+		"questions": ["So, <name>, what do you do first when getting ready for school?",
+			"Ok <name>, what's the first thing you do when getting ready for school?"
+		],
+		"correctResponses": ["I get out the bed", "I get up"],
+		"previous": "",
+		"noAnswerPrompts": ["<name>, are you going to tell me what you do first?",
+			"Come on <name>, tell me the first thing you do when geeting ready for school"
+		],
+		"errorPrompts": ["no way <name>, that's not the first thing you do!!",
+			"<name>, your mom told me that's not the first thing you do when getting ready for school"
+		],
+		"reinforcers": ["excellent", "great", "very good"],
+		"childActivity": ""
+	}]
+}
+
+```
+
+
+
+
+
 
 
