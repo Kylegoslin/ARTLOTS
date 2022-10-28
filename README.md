@@ -36,6 +36,10 @@ The core standard can be broken into three components:
 3. Learning Resource Tagging Metadata (Section 3)
 3. Learning Resource Scene Structures (Section 4)
 
+The JSON files outlined in this standard include:
+
+**learner_profile.json** - Learner specific profile data outlining their personal attributes and current abilities.
+**scene.json** - A structure for learning resources.
 
 
 ## 2. Learner Profile Metadata
