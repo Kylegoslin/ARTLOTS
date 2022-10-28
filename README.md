@@ -15,3 +15,7 @@ OpenEARL.org team.
 Version 1.0
 Date 1st Nov 2022.
 
+## Contact
+
+OpenEARL.org team can be contacted at info@openearl.org
+
