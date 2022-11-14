@@ -77,46 +77,27 @@ The **profile_complexity_attributes** are designed as a reference point for the 
 ```
 
 {
-    "profile_static_attributes": [
-        {
-            "first_name": "John"
-        },
-        {
-            "last_name": "Smith"
-        },
-        {
-            "gender": "male"
-        },
-        {
-            "dexterity": "high"
-        },
-        {
-            "age": "4"
-        }
-    ],
-    "profile_skill_attributes": [
-        {
-            "visual_tolerance": "low"
-        },
-        {
-            "reading_ability": "low"
-        },
-        {
-            "listening_ability": "medium"
-        },
-        {
-            "adaptability": "high"
-        },
-        {
-            "socialskills": "low"
-        }
+	"profile_static_attributes": [{
+		"first_name": "John",
+		"last_name": "Smith",
+		"gender": "male",
+		"dexterity": "high",
+		"age": "4"
+	}],
+	"profile_skill_attributes": [{
+			"visual_tolerance": "low",
+			"reading_ability": "low",
+			"listening_ability": "medium",
+			"adaptability": "high",
+			"socialskills": "low"
+		}
 
-    ],
-    "profile_complexity_attributes": {
-        "task_complexity": "med",
-        "prompt_complexity": "low",
-        "visual_complexity": "low"
-    }
+	],
+	"profile_complexity_attributes": {
+		"task_complexity": "med",
+		"prompt_complexity": "low",
+		"visual_complexity": "low"
+	}
 
 
 
